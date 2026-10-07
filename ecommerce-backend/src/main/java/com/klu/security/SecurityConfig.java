@@ -69,8 +69,8 @@ public class SecurityConfig {
         CorsConfiguration configuration = new CorsConfiguration();
 
         configuration.setAllowedOrigins(
-            List.of("http://localhost:5173"),
-            "https://m-tech-e-commerce-deployment.vercel.app"
+            List.of("http://localhost:5173",
+            "https://m-tech-e-commerce-deployment.vercel.app")
         );
 
         configuration.setAllowedMethods(
